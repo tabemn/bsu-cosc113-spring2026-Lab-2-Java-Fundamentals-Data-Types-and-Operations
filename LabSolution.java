@@ -31,7 +31,7 @@ public class LabSolution {
     System.out.println("The quotient is: " + (number / number2));
     System.out.println("The remainder is: " + (number % number2));
 
-    // 3. Data Type Limits
+     // 3. Data Type Limits
 
     long large = 6388934930909329052L;
     float small = 2.18f;
@@ -42,7 +42,7 @@ public class LabSolution {
 
     // --- Part 2: Character and String Operations ---
 
-    System.out.println("--- Part 2: Character and String Operations ---\n");
+    System.out.println("\n--- Part 2: Character and String Operations ---\n");
 
     // 1. Character Operations
 
@@ -55,14 +55,14 @@ public class LabSolution {
 
     // 2. String Operations
 
-    String petname = "My pet name is Lucky";
+    String petname = "Lacy is my pet name";
 
     // Get the length of the string
 
     System.out.println("Length: " + petname.length());
 
     // Get the character at a specific index (0-based)
-    // The character at index 1 is 'y'.
+    // The character at index 1 is 'a'.
 
     System.out.println("Char at index 1: " + petname.charAt(1));
 
