@@ -38,7 +38,7 @@ public class LabSolution {
 
     // Experiment: int testValue = 2147483648; // This would cause a compile error.
 
-     int testValue = 2147483648;
+     // int testValue = 2147483648;
 
     // --- Part 2: Character and String Operations ---
 
