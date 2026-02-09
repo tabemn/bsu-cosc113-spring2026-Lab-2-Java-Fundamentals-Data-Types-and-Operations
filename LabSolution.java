@@ -38,8 +38,7 @@ public class LabSolution {
 
     // Experiment: Paying close attention to limits. 
     // The line below is commented out because 2147483648 exceeds the max 'int' limit.
-    
-    int testValue = 2147483648; 
+    // int testValue = 2147483648; 
 
     // --- Part 2: Character and String Operations ---
 
