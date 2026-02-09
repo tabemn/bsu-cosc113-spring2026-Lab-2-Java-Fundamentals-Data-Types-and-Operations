@@ -10,7 +10,7 @@ public class LabSolution {
     System.out.println("--- Part 1: Numeric Operations ---\n");
 
     // 1. Integer Operations
-
+    
     int num = 15;
     int num2 = 5;
 
@@ -31,18 +31,18 @@ public class LabSolution {
     System.out.println("The quotient is: " + (number / number2));
     System.out.println("The remainder is: " + (number % number2));
 
-     // 3. Data Type Limits
+    // 3. Data Type Limits
 
     long large = 6388934930909329052L;
     float small = 2.18f;
 
-    // Experiment: int testValue = 2147483648; // This would cause a compile error.
-
-     // int testValue = 2147483648;
+    // Experiment: Paying close attention to limits. 
+    // The line below is commented out because 2147483648 exceeds the max 'int' limit.
+    // int testValue = 2147483648; 
 
     // --- Part 2: Character and String Operations ---
 
-    System.out.println("\n--- Part 2: Character and String Operations ---\n");
+    System.out.println("\n--- Part 2: Character and String Operations ---");
 
     // 1. Character Operations
 
@@ -51,7 +51,7 @@ public class LabSolution {
     // To get the ASCII value, cast the char to an int.
 
     int ASCIIvalue = (int) letter;
-    System.out.println("The ASCII value of " + letter + " is: " + ASCIIvalue);
+    System.out.println("\nThe ASCII value of " + letter + " is: " + ASCIIvalue);
 
     // 2. String Operations
 
